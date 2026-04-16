@@ -1,0 +1,10 @@
+export { default as Hero } from "./Hero";
+export { default as ServicesPreview } from "./ServicesPreview";
+export { default as AboutPreview } from "./AboutPreview";
+export { default as TestimonialsSection } from "./TestimonialsSection";
+export { default as BenefitsSection } from "./BenefitsSection";
+export { default as ProcessSection } from "./ProcessSection";
+export { default as CTASection } from "./CTASection";
+export { default as FAQSection } from "./FAQSection";
+export { default as LocationsPreview } from "./LocationsPreview";
+export { default as PageHeader } from "./PageHeader";
