@@ -18,7 +18,7 @@ export const SERVICES = [
     excerpt:
       "Traumgärten vom Entwurf bis zur Umsetzung – individuell geplant und professionell realisiert.",
     description:
-      "Wir verwandeln Ihre Grünfläche in einen persönlichen Traumgarten. Von der kreativen Planung über die Anlage von Beeten, Rasenflächen und Wegen bis hin zu stimmungsvoller Beleuchtung – wir gestalten Ihren Garten als Wohlfühloase.",
+      "Ich verwandle Ihre Grünfläche in einen persönlichen Traumgarten. Von der kreativen Planung über die Anlage von Beeten, Rasenflächen und Wegen bis hin zu stimmungsvoller Beleuchtung – ich gestalte Ihren Garten als Wohlfühloase.",
     metaTitle:
       "Gartengestaltung Berlin – Professionelle Neuanlage & Gartenplanung",
     metaDescription:
@@ -43,17 +43,17 @@ export const SERVICES = [
       },
       {
         title: "Nachhaltig",
-        text: "Wir setzen auf heimische Pflanzen, ressourcenschonende Materialien und langlebige Lösungen.",
+        text: "Ich setze auf heimische Pflanzen, ressourcenschonende Materialien und langlebige Lösungen.",
       },
     ],
     faq: [
       {
         q: "Wie lange dauert eine Gartengestaltung?",
-        a: "Je nach Umfang des Projekts rechnen wir mit 2–8 Wochen. Ein kleiner Vorgarten ist in wenigen Tagen fertig, eine Komplett-Neuanlage kann einige Wochen dauern.",
+        a: "Je nach Umfang des Projekts sind es 2–8 Wochen. Ein kleiner Vorgarten ist in wenigen Tagen fertig, eine Komplett-Neuanlage kann einige Wochen dauern.",
       },
       {
         q: "Was kostet eine Gartengestaltung?",
-        a: "Die Kosten variieren je nach Größe und Umfang. Für eine erste Einschätzung bieten wir eine kostenlose Vor-Ort-Beratung an. So erhalten Sie ein transparentes Angebot.",
+        a: "Die Kosten variieren je nach Größe und Umfang. Für eine erste Einschätzung biete ich eine kostenlose Vor-Ort-Beratung an. So erhalten Sie ein transparentes Angebot.",
       },
       {
         q: "Planen Sie auch kleine Gärten?",
@@ -69,7 +69,7 @@ export const SERVICES = [
     excerpt:
       "Regelmäßige Pflege für Ihren Garten – damit er das ganze Jahr über in bester Form bleibt.",
     description:
-      "Ein schöner Garten braucht regelmäßige Pflege. Wir kümmern uns um Rasenmähen, Heckenschnitt, Unkrautbekämpfung, Düngung und die saisonale Bepflanzung – damit Sie Ihren Garten einfach nur genießen können.",
+      "Ein schöner Garten braucht regelmäßige Pflege. Ich kümmere mich um Rasenmähen, Heckenschnitt, Unkrautbekämpfung, Düngung und die saisonale Bepflanzung – damit Sie Ihren Garten einfach nur genießen können.",
     metaTitle:
       "Gartenpflege Berlin – Professionelle Grünanlagenpflege & Gartenservice",
     metaDescription:
@@ -90,21 +90,21 @@ export const SERVICES = [
       },
       {
         title: "Flexibel",
-        text: "Ob regelmäßiger Service oder einmalige Pflege – wir passen uns Ihren Bedürfnissen an.",
+        text: "Ob regelmäßiger Service oder einmalige Pflege – ich passe mich Ihren Bedürfnissen an.",
       },
       {
         title: "Professionell",
-        text: "Unsere Fachkräfte kennen die Bedürfnisse jeder Pflanze und jeden Rasens.",
+        text: "Als Gärtnermeister kenne ich die Bedürfnisse jeder Pflanze und jeden Rasens.",
       },
     ],
     faq: [
       {
         q: "Wie oft sollte der Garten gepflegt werden?",
-        a: "Wir empfehlen in der Hauptsaison (April–Oktober) einen 14-tägigen Rhythmus. Im Winter genügt eine monatliche Kontrolle.",
+        a: "Ich empfehle in der Hauptsaison (April–Oktober) einen 14-tägigen Rhythmus. Im Winter genügt eine monatliche Kontrolle.",
       },
       {
         q: "Bieten Sie auch Pflege für Gewerbeobjekte an?",
-        a: "Ja, wir betreuen zahlreiche Gewerbeobjekte, Wohnanlagen und öffentliche Grünflächen in Berlin und Brandenburg.",
+        a: "Ja, ich betreue auch Gewerbeobjekte, Wohnanlagen und öffentliche Grünflächen in Berlin und Brandenburg.",
       },
     ],
   },
@@ -116,7 +116,7 @@ export const SERVICES = [
     excerpt:
       "Einfahrten, Wege und Terrassen – fachgerecht gepflastert mit hochwertigen Materialien.",
     description:
-      "Ob Einfahrt, Gartenweg oder Hofbefestigung – unsere erfahrenen Pflasterer schaffen langlebige und ästhetische Flächen. Wir arbeiten mit Naturstein, Betonstein und Klinker nach Ihren Wünschen.",
+      "Ob Einfahrt, Gartenweg oder Hofbefestigung – mit handwerklicher Präzision schaffe ich langlebige und ästhetische Flächen. Ich arbeite mit Naturstein, Betonstein und Klinker nach Ihren Wünschen.",
     metaTitle:
       "Pflasterarbeiten Berlin – Einfahrten, Wege & Terrassen pflastern",
     metaDescription:
@@ -147,7 +147,7 @@ export const SERVICES = [
     faq: [
       {
         q: "Welches Material eignet sich für meine Einfahrt?",
-        a: "Für Einfahrten empfehlen wir Betonpflaster (Belastungsklasse 3+) oder Naturstein. In einer Beratung vor Ort finden wir die beste Lösung für Ihren Bedarf und Ihr Budget.",
+        a: "Für Einfahrten empfehle ich Betonpflaster (Belastungsklasse 3+) oder Naturstein. In einer Beratung vor Ort finde ich die beste Lösung für Ihren Bedarf und Ihr Budget.",
       },
       {
         q: "Wie lange halten Pflasterarbeiten?",
@@ -163,7 +163,7 @@ export const SERVICES = [
     excerpt:
       "Ihre neue Traumterrasse – aus Holz, WPC oder Naturstein, perfekt gebaut.",
     description:
-      "Eine Terrasse erweitert Ihren Wohnraum ins Freie. Ob edle Holzterrasse, pflegeleichtes WPC oder klassischer Naturstein – wir bauen Ihre Terrasse mit Liebe zum Detail und handwerklicher Perfektion.",
+      "Eine Terrasse erweitert Ihren Wohnraum ins Freie. Ob edle Holzterrasse, pflegeleichtes WPC oder klassischer Naturstein – ich baue Ihre Terrasse mit Liebe zum Detail und handwerklicher Perfektion.",
     metaTitle: "Terrassenbau Berlin – Holzterrassen, WPC & Natursteinterrassen",
     metaDescription:
       "Professioneller Terrassenbau in Berlin. Holzterrassen, WPC-Terrassen & Naturstein-Terrassen. ✓ Individuelle Planung ✓ Meisterqualität ✓ Faire Preise",
@@ -179,11 +179,11 @@ export const SERVICES = [
     benefits: [
       {
         title: "Materialvielfalt",
-        text: "Von edlem Hartholz über pflegeleichtes WPC bis hin zu elegantem Naturstein – wir realisieren Ihre Wunschterrasse.",
+        text: "Von edlem Hartholz über pflegeleichtes WPC bis hin zu elegantem Naturstein – ich realisiere Ihre Wunschterrasse.",
       },
       {
         title: "Perfekte Planung",
-        text: "Wir berücksichtigen Sonnenverlauf, Sichtachsen und Ihren Lebensstil für die optimale Terrassengestaltung.",
+        text: "Ich berücksichtige Sonnenverlauf, Sichtachsen und Ihren Lebensstil für die optimale Terrassengestaltung.",
       },
       {
         title: "Handwerkskunst",
@@ -193,11 +193,11 @@ export const SERVICES = [
     faq: [
       {
         q: "Holz oder WPC – was ist besser?",
-        a: "Holz bietet eine natürliche Optik und Haptik, benötigt aber regelmäßige Pflege. WPC ist nahezu wartungsfrei, splittert nicht und ist UV-beständig. Wir beraten Sie gerne zu den Vor- und Nachteilen.",
+        a: "Holz bietet eine natürliche Optik und Haptik, benötigt aber regelmäßige Pflege. WPC ist nahezu wartungsfrei, splittert nicht und ist UV-beständig. Ich berate Sie gerne zu den Vor- und Nachteilen.",
       },
       {
         q: "Brauche ich eine Baugenehmigung für die Terrasse?",
-        a: "In der Regel ist eine ebenerdige Terrasse genehmigungsfrei. Bei erhöhten Terrassen oder Überdachungen kann eine Genehmigung nötig sein – wir klären das für Sie.",
+        a: "In der Regel ist eine ebenerdige Terrasse genehmigungsfrei. Bei erhöhten Terrassen oder Überdachungen kann eine Genehmigung nötig sein – das kläre ich gerne für Sie.",
       },
     ],
   },
@@ -209,7 +209,7 @@ export const SERVICES = [
     excerpt:
       "Zäune und Sichtschutz für mehr Privatsphäre – stilvoll und stabil.",
     description:
-      "Schützen Sie Ihr Grundstück mit hochwertigen Zaunanlagen. Ob Doppelstabmattenzaun, Holzzaun, Gabionen oder lebender Sichtschutz – wir finden die perfekte Lösung für Ihre Anforderungen.",
+      "Schützen Sie Ihr Grundstück mit hochwertigen Zaunanlagen. Ob Doppelstabmattenzaun, Holzzaun, Gabionen oder lebender Sichtschutz – ich finde die perfekte Lösung für Ihre Anforderungen.",
     metaTitle: "Zaunbau Berlin – Sichtschutz, Holzzaun & Doppelstabmattenzaun",
     metaDescription:
       "Professioneller Zaunbau in Berlin & Brandenburg. Doppelstabmatten, Holzzäune, Gabionen & Sichtschutz. ✓ Montage & Beratung ✓ Top-Qualität ✓ Faire Preise",
@@ -239,7 +239,7 @@ export const SERVICES = [
     faq: [
       {
         q: "Welcher Zaun passt zu meinem Grundstück?",
-        a: "Das hängt von Ihren Anforderungen ab: Privatsphäre, Sicherheit, Ästhetik und Budget. In einem Vor-Ort-Termin beraten wir Sie umfassend.",
+        a: "Das hängt von Ihren Anforderungen ab: Privatsphäre, Sicherheit, Ästhetik und Budget. In einem Vor-Ort-Termin berate ich Sie umfassend.",
       },
       {
         q: "Wie hoch darf ein Zaun sein?",
@@ -255,7 +255,7 @@ export const SERVICES = [
     excerpt:
       "Professionelle Baumpflege und sichere Baumfällungen – auch in schwierigem Gelände.",
     description:
-      "Ob Kronenpflege, Totholzentfernung oder fachgerechte Fällung – unsere zertifizierten Baumpfleger sorgen für die Gesundheit und Sicherheit Ihrer Bäume. Auch Sturmschadenbeseitigung gehört zu unserem Leistungsspektrum.",
+      "Ob Kronenpflege, Totholzentfernung oder fachgerechte Fällung – als zertifizierter Baumpfleger sorge ich für die Gesundheit und Sicherheit Ihrer Bäume. Auch Sturmschadenbeseitigung gehört zu meinem Leistungsspektrum.",
     metaTitle: "Baumpflege Berlin – Baumfällung, Kronenpflege & Baumschnitt",
     metaDescription:
       "Zertifizierte Baumpflege & sichere Baumfällung in Berlin. Kronenpflege, Totholzentfernung, Sturmschadenbeseitigung. ✓ SKT-zertifiziert ✓ Schnell & sicher",
@@ -271,7 +271,7 @@ export const SERVICES = [
     benefits: [
       {
         title: "Zertifiziert",
-        text: "Unsere Baumpfleger sind SKT-zertifiziert und arbeiten nach ZTV-Baumpflege.",
+        text: "SKT-zertifiziert – alle Arbeiten nach ZTV-Baumpflege.",
       },
       {
         title: "Sicher",
@@ -279,13 +279,13 @@ export const SERVICES = [
       },
       {
         title: "Schnell",
-        text: "Notfälle nach Sturm bearbeiten wir innerhalb von 24 Stunden.",
+        text: "Notfälle nach Sturm bearbeite ich innerhalb von 24 Stunden.",
       },
     ],
     faq: [
       {
         q: "Brauche ich eine Genehmigung für die Baumfällung?",
-        a: "In Berlin sind Bäume ab 80 cm Stammumfang durch die Baumschutzverordnung geschützt. Wir kümmern uns um die Antragstellung beim zuständigen Amt.",
+        a: "In Berlin sind Bäume ab 80 cm Stammumfang durch die Baumschutzverordnung geschützt. Ich kümmere mich um die Antragstellung beim zuständigen Amt.",
       },
       {
         q: "Wann ist der beste Zeitpunkt für Baumpflege?",
@@ -301,7 +301,7 @@ export const SERVICES = [
     excerpt:
       "Automatische Bewässerung für einen grünen Garten – wassersparend und intelligent.",
     description:
-      "Nie mehr gießen! Mit unseren automatischen Bewässerungssystemen wird Ihr Garten optimal versorgt – wassersparend, zuverlässig und bequem per App steuerbar.",
+      "Nie mehr gießen! Mit meinen automatischen Bewässerungssystemen wird Ihr Garten optimal versorgt – wassersparend, zuverlässig und bequem per App steuerbar.",
     metaTitle:
       "Bewässerungssysteme Berlin – Automatische Gartenbewässerung installieren",
     metaDescription:
@@ -332,11 +332,11 @@ export const SERVICES = [
     faq: [
       {
         q: "Was kostet ein Bewässerungssystem?",
-        a: "Die Kosten hängen von der Gartengröße und Komplexität ab. Für einen durchschnittlichen Garten (200–400 m²) rechnen Sie mit 2.000–5.000 €. Wir erstellen Ihnen ein individuelles Angebot.",
+        a: "Die Kosten hängen von der Gartengröße und Komplexität ab. Für einen durchschnittlichen Garten (200–400 m²) rechnen Sie mit 2.000–5.000 €. Ich erstelle Ihnen ein individuelles Angebot.",
       },
       {
         q: "Kann man ein bestehendes System nachrüsten?",
-        a: "Ja, wir können bestehende Bewässerungssysteme erweitern, modernisieren oder auf Smart-Steuerung umrüsten.",
+        a: "Ja, ich kann bestehende Bewässerungssysteme erweitern, modernisieren oder auf Smart-Steuerung umrüsten.",
       },
     ],
   },
@@ -348,7 +348,7 @@ export const SERVICES = [
     excerpt:
       "Zuverlässiger Winterdienst – Schneeräumung und Streudienst für Ihre Sicherheit.",
     description:
-      "Kein Stress im Winter: Unser professioneller Winterdienst sorgt für geräumte Wege, Einfahrten und Parkplätze. Zuverlässig, pünktlich und dokumentiert – für Ihre Verkehrssicherungspflicht.",
+      "Kein Stress im Winter: Mein professioneller Winterdienst sorgt für geräumte Wege, Einfahrten und Parkplätze. Zuverlässig, pünktlich und dokumentiert – für Ihre Verkehrssicherungspflicht.",
     metaTitle:
       "Winterdienst Berlin – Professionelle Schneeräumung & Streudienst",
     metaDescription:
@@ -379,11 +379,11 @@ export const SERVICES = [
     faq: [
       {
         q: "Wann wird geräumt?",
-        a: "Wir räumen gemäß der Berliner Straßenreinigungsordnung: Werktags ab 7 Uhr, an Sonn- und Feiertagen ab 9 Uhr. Bei starkem Schneefall räumen wir mehrfach täglich.",
+        a: "Geräumt wird gemäß der Berliner Straßenreinigungsordnung: Werktags ab 7 Uhr, an Sonn- und Feiertagen ab 9 Uhr. Bei starkem Schneefall mehrfach täglich.",
       },
       {
         q: "Gibt es Saisonverträge?",
-        a: "Ja, wir bieten Saisonverträge (November–März) mit Festpreis an. So haben Sie Planungssicherheit und kalkulierbare Kosten.",
+        a: "Ja, ich biete Saisonverträge (November–März) mit Festpreis an. So haben Sie Planungssicherheit und kalkulierbare Kosten.",
       },
     ],
   },

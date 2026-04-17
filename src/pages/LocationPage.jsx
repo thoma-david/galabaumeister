@@ -12,6 +12,7 @@ import Button from "../components/ui/Button";
 import { getLocationBySlug } from "../data/locations";
 import { SERVICES } from "../data/services";
 import { SITE } from "../data/site";
+import { SERVICE_IMAGES, bgHero } from "../data/images";
 
 export default function LocationPage() {
   const { slug } = useParams();
@@ -67,7 +68,7 @@ export default function LocationPage() {
               </p>
 
               <h3 className="text-xl font-bold text-slate-900 mb-4">
-                Unsere Leistungen in {location.city}
+                Leistungen in {location.city}
               </h3>
               <div className="grid sm:grid-cols-2 gap-4 mb-8">
                 {SERVICES.map((s) => (
@@ -87,7 +88,7 @@ export default function LocationPage() {
               {location.districts && (
                 <>
                   <h3 className="text-xl font-bold text-slate-900 mb-4">
-                    Wir kommen zu Ihnen – Stadtteile & Gebiete
+                    Ich komme zu Ihnen – Stadtteile & Gebiete
                   </h3>
                   <div className="flex flex-wrap gap-2 mb-8">
                     {location.districts.map((d) => (
@@ -108,7 +109,7 @@ export default function LocationPage() {
                   Jetzt Beratung in {location.city} anfordern
                 </h3>
                 <p className="text-slate-600 mb-4">
-                  Kostenlose Vor-Ort-Beratung – wir kommen direkt zu Ihnen nach{" "}
+                  Kostenlose Vor-Ort-Beratung – ich komme direkt zu Ihnen nach{" "}
                   {location.city}.
                 </p>
                 <div className="flex flex-wrap gap-3">
@@ -126,10 +127,19 @@ export default function LocationPage() {
 
             {/* Sidebar */}
             <aside className="space-y-6">
+              <div className="aspect-[4/3] rounded-2xl overflow-hidden">
+                <img
+                  src={bgHero}
+                  alt={`Galabau Meister in ${location.city}`}
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                />
+              </div>
+
               <div className="bg-slate-900 text-white rounded-2xl p-6">
                 <h3 className="font-bold text-lg mb-3">Ihr Kontakt vor Ort</h3>
                 <p className="text-slate-400 text-sm mb-4">
-                  Schnelle Anfahrt nach {location.city} von unserem Standort in
+                  Schnelle Anfahrt nach {location.city} von meinem Standort in
                   Berlin-Steglitz.
                 </p>
                 <a

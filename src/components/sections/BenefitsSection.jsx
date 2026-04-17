@@ -8,8 +8,8 @@ export default function BenefitsSection() {
       <Container>
         <SectionHeader
           label="Warum Galabau Meister?"
-          title="6 gute Gründe für uns"
-          subtitle="Qualität, Zuverlässigkeit und Fairness – das zeichnet unsere Arbeit aus."
+          title="6 gute Gründe für mich"
+          subtitle="Qualität, Zuverlässigkeit und Fairness – das zeichnet meine Arbeit aus."
         />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

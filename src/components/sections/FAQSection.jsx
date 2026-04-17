@@ -14,8 +14,8 @@ export default function FAQSection({ items = FAQ, title, label }) {
       <Container narrow>
         <SectionHeader
           label={label || "Häufige Fragen"}
-          title={title || "Ihre Fragen – unsere Antworten"}
-          subtitle="Hier finden Sie Antworten auf die häufigsten Fragen rund um unsere Leistungen."
+          title={title || "Häufig gestellte Fragen"}
+          subtitle="Hier finden Sie Antworten auf die häufigsten Fragen rund um meine Leistungen."
         />
 
         <div className="space-y-3">

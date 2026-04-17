@@ -21,8 +21,8 @@ export default function CTASection() {
           Starten Sie jetzt Ihr Gartenprojekt
         </h2>
         <p className="mt-5 text-lg text-emerald-100 max-w-2xl mx-auto">
-          Vereinbaren Sie eine kostenlose Beratung vor Ort. Wir kommen zu Ihnen,
-          besprechen Ihre Wünsche und erstellen ein unverbindliches Angebot.
+          Vereinbaren Sie eine kostenlose Beratung vor Ort. Ich komme zu Ihnen,
+          bespreche Ihre Wünsche und erstelle ein unverbindliches Angebot.
         </p>
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
           <Button variant="dark" size="lg" to="/kontakt">

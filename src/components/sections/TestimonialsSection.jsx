@@ -9,8 +9,8 @@ export default function TestimonialsSection() {
       <Container>
         <SectionHeader
           label="Kundenstimmen"
-          title="Was unsere Kunden sagen"
-          subtitle="Über 180 Google-Bewertungen mit durchschnittlich 4,9 Sternen – darauf sind wir stolz."
+          title="Was meine Kunden sagen"
+          subtitle="Über 180 Google-Bewertungen mit durchschnittlich 4,9 Sternen – darauf bin ich stolz."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

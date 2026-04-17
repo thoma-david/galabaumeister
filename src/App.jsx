@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import { Layout } from "./components/layout";
 import Home from "./pages/Home";
-import About from "./pages/About";
 import Services from "./pages/Services";
 import ServiceDetail from "./pages/ServiceDetail";
 import Contact from "./pages/Contact";
@@ -18,7 +17,6 @@ export default function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="ueber-uns" element={<About />} />
           <Route path="leistungen" element={<Services />} />
           <Route path="leistungen/:slug" element={<ServiceDetail />} />
           <Route path="kontakt" element={<Contact />} />

@@ -18,13 +18,13 @@ export default function Contact() {
     <>
       <SEO
         title="Kontakt – Kostenlose Beratung anfordern"
-        description="Kontaktieren Sie Galabau Meister für eine kostenlose Beratung. Telefon, E-Mail oder Kontaktformular – wir sind für Sie da. Berlin & Brandenburg."
+        description="Kontaktieren Sie Galabau Meister für eine kostenlose Beratung. Telefon, E-Mail oder Kontaktformular – ich bin für Sie da. Berlin & Brandenburg."
         path="kontakt"
       />
 
       <PageHeader
         title="Kontakt aufnehmen"
-        subtitle="Wir freuen uns auf Ihre Anfrage – kostenlos und unverbindlich."
+        subtitle="Ich freue mich auf Ihre Anfrage – kostenlos und unverbindlich."
         breadcrumbs={[{ label: "Startseite", path: "/" }, { label: "Kontakt" }]}
       />
 
@@ -44,7 +44,7 @@ export default function Contact() {
                     Vielen Dank für Ihre Nachricht!
                   </h3>
                   <p className="text-slate-600">
-                    Wir melden uns innerhalb von 24 Stunden bei Ihnen zurück.
+                    Ich melde mich innerhalb von 24 Stunden bei Ihnen zurück.
                   </p>
                 </div>
               ) : (
@@ -143,7 +143,7 @@ export default function Contact() {
                   </div>
 
                   <p className="text-xs text-slate-500">
-                    * Pflichtfelder. Ihre Daten werden gemäß unserer{" "}
+                    * Pflichtfelder. Ihre Daten werden gemäß meiner{" "}
                     <a
                       href="/datenschutz"
                       className="text-emerald-600 underline"

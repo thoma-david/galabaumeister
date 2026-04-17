@@ -10,7 +10,7 @@ export const TESTIMONIALS = [
     name: "Thomas M.",
     location: "Potsdam",
     rating: 5,
-    text: "Seit 3 Jahren betreut das Team unsere Grünanlage. Immer pünktlich, immer sauber, immer freundlich. Man merkt einfach, dass hier Profis am Werk sind.",
+    text: "Seit 3 Jahren wird unsere Grünanlage betreut. Immer pünktlich, immer sauber, immer freundlich. Man merkt einfach, dass hier ein Profi am Werk ist.",
     service: "Gartenpflege",
   },
   {
@@ -24,7 +24,7 @@ export const TESTIMONIALS = [
     name: "Andreas B.",
     location: "Berlin-Zehlendorf",
     rating: 5,
-    text: "Problembaumfällung im engen Hinterhof – ich dachte, das ist unmöglich. Das Team hat es sicher und sauber in einem Tag erledigt. Sehr beeindruckend!",
+    text: "Problembaumfällung im engen Hinterhof – ich dachte, das ist unmöglich. Wurde sicher und sauber in einem Tag erledigt. Sehr beeindruckend!",
     service: "Baumfällung",
   },
   {

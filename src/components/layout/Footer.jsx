@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import { SITE } from "../../data/site";
 import { FOOTER_LINKS } from "../../data/navigation";
+import { logoImg } from "../../data/images";
 import Container from "../ui/Container";
 
 export default function Footer() {
@@ -52,34 +53,16 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Company info / NAP */}
           <div className="lg:col-span-1">
-            <Link to="/" className="inline-flex items-center gap-2 mb-5">
-              <div className="w-9 h-9 bg-emerald-600 rounded-xl flex items-center justify-center">
-                <svg
-                  viewBox="0 0 24 24"
-                  className="w-5 h-5 text-white"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M12 22c4-4 8-7.5 8-12a8 8 0 1 0-16 0c0 4.5 4 8 8 12z" />
-                  <path d="M12 10V6" />
-                  <path d="M9 8h6" />
-                </svg>
-              </div>
-              <div className="leading-tight">
-                <span className="block text-base font-extrabold text-white">
-                  Galabau
-                </span>
-                <span className="block text-[10px] font-semibold text-emerald-400 -mt-0.5 tracking-wider">
-                  MEISTER
-                </span>
-              </div>
+            <Link to="/" className="inline-block mb-5">
+              <img
+                src={logoImg}
+                alt="Galabau Meister Logo"
+                className="h-12 w-auto brightness-0 invert"
+              />
             </Link>
             <p className="text-sm text-slate-400 mb-5">
               Ihr Meisterbetrieb für Garten- und Landschaftsbau in Berlin &
-              Brandenburg. Seit über 15 Jahren.
+              Brandenburg. Seit über 15 Jahren. Persönlich & zuverlässig.
             </p>
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2.5">

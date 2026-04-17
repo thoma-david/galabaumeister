@@ -14,7 +14,6 @@ export const NAV_LINKS = [
       { label: "Winterdienst", path: "/leistungen/winterdienst" },
     ],
   },
-  { label: "Über uns", path: "/ueber-uns" },
   { label: "Kontakt", path: "/kontakt" },
 ];
 
@@ -28,7 +27,6 @@ export const FOOTER_LINKS = {
     { label: "Baumpflege", path: "/leistungen/baumpflege" },
   ],
   unternehmen: [
-    { label: "Über uns", path: "/ueber-uns" },
     { label: "Kontakt", path: "/kontakt" },
     { label: "Impressum", path: "/impressum" },
     { label: "Datenschutz", path: "/datenschutz" },

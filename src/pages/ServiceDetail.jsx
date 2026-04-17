@@ -10,6 +10,7 @@ import {
 import Container from "../components/ui/Container";
 import Button from "../components/ui/Button";
 import { getServiceBySlug, SERVICES } from "../data/services";
+import { SERVICE_IMAGES } from "../data/images";
 import { SITE } from "../data/site";
 
 export default function ServiceDetail() {
@@ -80,7 +81,7 @@ export default function ServiceDetail() {
 
               {/* Features */}
               <h3 className="text-xl font-bold text-slate-900 mb-4">
-                Unsere Leistungen im Überblick
+                Leistungen im Überblick
               </h3>
               <ul className="grid sm:grid-cols-2 gap-3 mb-10">
                 {service.features.map((f) => (
@@ -119,8 +120,8 @@ export default function ServiceDetail() {
                     Kostenlose Beratung anfordern
                   </h3>
                   <p className="text-slate-600 mt-1">
-                    Wir kommen zu Ihnen und erstellen ein unverbindliches
-                    Angebot für Ihr Projekt.
+                    Ich komme zu Ihnen und erstelle ein unverbindliches Angebot
+                    für Ihr Projekt.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 shrink-0">
@@ -138,19 +139,14 @@ export default function ServiceDetail() {
 
             {/* Sidebar */}
             <aside className="lg:col-span-2">
-              {/* Image placeholder */}
-              <div className="aspect-[4/3] bg-gradient-to-br from-emerald-100 to-emerald-50 rounded-2xl flex items-center justify-center mb-6">
-                <div className="text-center">
-                  {(() => {
-                    const Icon = service.icon;
-                    return (
-                      <Icon className="w-16 h-16 text-emerald-300 mx-auto mb-3" />
-                    );
-                  })()}
-                  <p className="text-emerald-600 font-medium text-sm">
-                    {service.shortTitle}
-                  </p>
-                </div>
+              {/* Service image */}
+              <div className="aspect-[4/3] rounded-2xl overflow-hidden mb-6">
+                <img
+                  src={SERVICE_IMAGES[slug]}
+                  alt={service.title}
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                />
               </div>
 
               {/* Quick contact card */}

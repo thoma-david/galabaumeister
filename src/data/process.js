@@ -3,19 +3,19 @@ export const PROCESS = [
     step: 1,
     title: "Kostenlose Beratung",
     description:
-      "Wir kommen zu Ihnen, besprechen Ihre Wünsche und nehmen die Gegebenheiten vor Ort auf.",
+      "Ich komme zu Ihnen, bespreche Ihre Wünsche und nehme die Gegebenheiten vor Ort auf.",
   },
   {
     step: 2,
     title: "Individuelle Planung",
     description:
-      "Unser Team erstellt ein maßgeschneidertes Konzept mit transparentem Festpreisangebot.",
+      "Ich erstelle ein maßgeschneidertes Konzept mit transparentem Festpreisangebot.",
   },
   {
     step: 3,
     title: "Professionelle Umsetzung",
     description:
-      "Unsere erfahrenen Fachkräfte setzen Ihr Projekt termingerecht und in Meisterqualität um.",
+      "Ihr Projekt wird termingerecht und in Meisterqualität umgesetzt.",
   },
   {
     step: 4,

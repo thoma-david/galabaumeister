@@ -1,10 +1,10 @@
 // NAP-Daten & Unternehmensinformationen
 export const SITE = {
   name: "Galabau Meister",
-  legalName: "Galabau Meister GmbH",
+  legalName: "Galabau Meister – Norbert Meister",
   tagline: "Ihr Experte für Garten- und Landschaftsbau",
   description:
-    "Professioneller Garten- und Landschaftsbau in Berlin & Brandenburg. Gartengestaltung, Pflasterarbeiten, Terrassenbau, Baumpflege und mehr – seit über 15 Jahren.",
+    "Professioneller Garten- und Landschaftsbau in Berlin & Brandenburg. Gartengestaltung, Pflasterarbeiten, Terrassenbau, Baumpflege und mehr – seit über 15 Jahren. Persönlich, zuverlässig, in Meisterqualität.",
   url: "https://galabau-meister.de",
   phone: "+49 30 1234567",
   phoneDisplay: "030 / 123 45 67",
@@ -40,7 +40,7 @@ export const SCHEMA_LOCAL_BUSINESS = {
   "@context": "https://schema.org",
   "@type": "LandscapingBusiness",
   name: SITE.name,
-  legalName: SITE.legalName,
+  legalName: "Galabau Meister – Norbert Meister",
   description: SITE.description,
   url: SITE.url,
   telephone: SITE.phone,

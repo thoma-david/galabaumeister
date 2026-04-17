@@ -1,4 +1,4 @@
-import { Award, Shield, Clock, ThumbsUp, Leaf, Users } from "lucide-react";
+import { Award, Shield, Clock, ThumbsUp, Leaf, User } from "lucide-react";
 
 export const BENEFITS = [
   {
@@ -9,12 +9,12 @@ export const BENEFITS = [
   {
     icon: Shield,
     title: "Festpreisgarantie",
-    text: "Transparente Angebote ohne versteckte Kosten. Der Preis, den wir nennen, gilt.",
+    text: "Transparente Angebote ohne versteckte Kosten. Der Preis, den ich nenne, gilt.",
   },
   {
     icon: Clock,
     title: "Termintreue",
-    text: "Wir halten unsere Zusagen – pünktlicher Start und verlässliche Fertigstellung.",
+    text: "Ich halte meine Zusagen – pünktlicher Start und verlässliche Fertigstellung.",
   },
   {
     icon: ThumbsUp,
@@ -27,8 +27,8 @@ export const BENEFITS = [
     text: "Umweltbewusstes Arbeiten mit regionalen Materialien und heimischen Pflanzen.",
   },
   {
-    icon: Users,
-    title: "Persönliche Beratung",
-    text: "Ein fester Ansprechpartner für Ihr gesamtes Projekt – von der Planung bis zur Nachbetreuung.",
+    icon: User,
+    title: "Persönliche Betreuung",
+    text: "Sie haben immer direkt mit mir zu tun – von der Planung bis zur Fertigstellung.",
   },
 ];

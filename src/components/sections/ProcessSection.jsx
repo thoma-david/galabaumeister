@@ -10,9 +10,9 @@ export default function ProcessSection() {
 
       <Container className="relative">
         <SectionHeader
-          label="So arbeiten wir"
+          label="So arbeite ich"
           title="In 4 Schritten zum Traumgarten"
-          subtitle="Unser bewährter Prozess sorgt dafür, dass Ihr Projekt reibungslos und termingerecht umgesetzt wird."
+          subtitle="Mein bewährter Ablauf sorgt dafür, dass Ihr Projekt reibungslos und termingerecht umgesetzt wird."
           light
         />
 

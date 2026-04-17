@@ -35,7 +35,7 @@ export default function Impressum() {
             </p>
 
             <h2>Vertreten durch</h2>
-            <p>Markus Grünberg, Geschäftsführer</p>
+            <p>Norbert Meister, Inhaber</p>
 
             <h2>Handelsregister</h2>
             <p>

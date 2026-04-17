@@ -1,18 +1,18 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { SERVICES } from "../../data/services";
+import { SERVICE_IMAGES } from "../../data/images";
 import Container from "../ui/Container";
 import SectionHeader from "../ui/SectionHeader";
-import Card from "../ui/Card";
 
 export default function ServicesPreview() {
   return (
     <section className="py-20 md:py-28 bg-stone-50">
       <Container>
         <SectionHeader
-          label="Unsere Leistungen"
+          label="Meine Leistungen"
           title="Alles für Ihren Traumgarten"
-          subtitle="Von der kreativen Planung bis zur professionellen Umsetzung – wir bieten Ihnen das komplette Leistungsspektrum im Garten- und Landschaftsbau."
+          subtitle="Von der kreativen Planung bis zur professionellen Umsetzung – das komplette Leistungsspektrum im Garten- und Landschaftsbau."
         />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -20,21 +20,33 @@ export default function ServicesPreview() {
             const Icon = service.icon;
             return (
               <Link key={service.slug} to={`/leistungen/${service.slug}`}>
-                <Card className="h-full group">
-                  <div className="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center mb-5 group-hover:bg-emerald-600 transition-colors">
-                    <Icon className="w-6 h-6 text-emerald-600 group-hover:text-white transition-colors" />
+                <div className="bg-white rounded-2xl border border-slate-100 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300 h-full group">
+                  <div className="aspect-[3/2] overflow-hidden">
+                    <img
+                      src={SERVICE_IMAGES[service.slug]}
+                      alt={service.shortTitle}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
+                    />
                   </div>
-                  <h3 className="text-lg font-bold text-slate-900 mb-2">
-                    {service.shortTitle}
-                  </h3>
-                  <p className="text-sm text-slate-600 mb-4 line-clamp-3">
-                    {service.excerpt}
-                  </p>
-                  <span className="inline-flex items-center gap-1 text-emerald-600 text-sm font-semibold group-hover:gap-2 transition-all">
-                    Mehr erfahren
-                    <ArrowRight className="w-4 h-4" />
-                  </span>
-                </Card>
+                  <div className="p-5">
+                    <div className="flex items-center gap-3 mb-2">
+                      <div className="w-9 h-9 bg-emerald-100 rounded-lg flex items-center justify-center group-hover:bg-emerald-600 transition-colors shrink-0">
+                        <Icon className="w-5 h-5 text-emerald-600 group-hover:text-white transition-colors" />
+                      </div>
+                      <h3 className="text-lg font-bold text-slate-900">
+                        {service.shortTitle}
+                      </h3>
+                    </div>
+                    <p className="text-sm text-slate-600 mb-3 line-clamp-2">
+                      {service.excerpt}
+                    </p>
+                    <span className="inline-flex items-center gap-1 text-emerald-600 text-sm font-semibold group-hover:gap-2 transition-all">
+                      Mehr erfahren
+                      <ArrowRight className="w-4 h-4" />
+                    </span>
+                  </div>
+                </div>
               </Link>
             );
           })}

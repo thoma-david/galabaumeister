@@ -5,7 +5,7 @@ import {
   CTASection,
 } from "../components/sections";
 import Container from "../components/ui/Container";
-import { TEAM } from "../data/team";
+import { OWNER } from "../data/team";
 import { SITE } from "../data/site";
 import { CheckCircle, Award, Users, TreePine } from "lucide-react";
 
@@ -20,7 +20,7 @@ export default function About() {
 
       <PageHeader
         title="Über Galabau Meister"
-        subtitle="Ihr Meisterbetrieb für Garten- und Landschaftsbau in Berlin & Brandenburg – seit über 15 Jahren."
+        subtitle="Ihr Meisterbetrieb für Garten- und Landschaftsbau in Berlin & Brandenburg – persönlich, zuverlässig, seit über 15 Jahren."
         breadcrumbs={[
           { label: "Startseite", path: "/" },
           { label: "Über uns" },
@@ -33,29 +33,29 @@ export default function About() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
               <span className="text-sm font-bold tracking-widest uppercase text-emerald-600">
-                Unsere Geschichte
+                Meine Geschichte
               </span>
               <h2 className="mt-3 text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
                 Aus Leidenschaft für Gärten
               </h2>
               <div className="mt-6 space-y-4 text-slate-600 text-lg leading-relaxed">
                 <p>
-                  Galabau Meister wurde 2009 von Gärtnermeister Markus Grünberg
-                  in Berlin gegründet – mit der Vision, erstklassigen Garten-
-                  und Landschaftsbau für Privat- und Gewerbekunden zu bieten.
+                  Galabau Meister wurde 2009 von mir – Gärtnermeister Norbert
+                  Meister – in Berlin gegründet, mit der Vision, erstklassigen
+                  Garten- und Landschaftsbau für Privat- und Gewerbekunden zu
+                  bieten.
                 </p>
                 <p>
-                  Was als Ein-Mann-Betrieb begann, ist heute ein Team von über
-                  20 engagierten Fachkräften. Unser Anspruch ist geblieben:
-                  Jedes Projekt, ob kleiner Vorgarten oder große Gewerbefläche,
-                  wird mit der gleichen Sorgfalt und Leidenschaft umgesetzt.
+                  Als selbstständiger Meisterbetrieb ist mir persönliche
+                  Betreuung besonders wichtig. Bei jedem Projekt bin ich selbst
+                  vor Ort – ob kleiner Vorgarten oder große Gewerbefläche. Bei
+                  Bedarf arbeite ich mit ausgewählten Fachkräften zusammen.
                 </p>
                 <p>
-                  Als Meisterbetrieb stehen wir für geprüfte Qualität,
-                  termingerechte Ausführung und transparente Preise. Unsere
-                  Kunden schätzen besonders die persönliche Beratung und die
-                  Tatsache, dass sie von der Planung bis zur Fertigstellung
-                  einen festen Ansprechpartner haben.
+                  Meine Kunden schätzen besonders, dass sie immer direkt mit mir
+                  zu tun haben – von der Planung bis zur Fertigstellung.
+                  Transparente Preise, termingerechte Ausführung und
+                  handwerkliche Perfektion sind mein Anspruch.
                 </p>
               </div>
             </div>
@@ -105,61 +105,54 @@ export default function About() {
         </Container>
       </section>
 
-      {/* Team section */}
+      {/* Owner section */}
       <section className="py-20 md:py-28 bg-stone-50">
         <Container>
-          <div className="text-center mb-12 md:mb-16">
+          <div className="max-w-3xl mx-auto text-center mb-12">
             <span className="text-sm font-bold tracking-widest uppercase text-emerald-600">
-              Unser Team
+              Ihr Ansprechpartner
             </span>
             <h2 className="mt-3 text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-              Die Menschen hinter Galabau Meister
+              Der Mensch hinter Galabau Meister
             </h2>
-            <p className="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">
-              Engagierte Fachkräfte mit Herz und Verstand – für Ihr perfektes
-              Gartenprojekt.
-            </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {TEAM.map((member) => (
-              <div
-                key={member.name}
-                className="bg-white rounded-2xl overflow-hidden border border-slate-100"
-              >
-                {/* Avatar placeholder */}
-                <div className="aspect-[4/3] bg-gradient-to-br from-emerald-100 to-emerald-50 flex items-center justify-center">
-                  <div className="w-20 h-20 bg-emerald-200 rounded-full flex items-center justify-center">
-                    <span className="text-2xl font-bold text-emerald-700">
-                      {member.name
-                        .split(" ")
-                        .map((n) => n[0])
-                        .join("")}
-                    </span>
-                  </div>
-                </div>
-                <div className="p-5">
-                  <h3 className="font-bold text-slate-900">{member.name}</h3>
-                  <p className="text-sm text-emerald-600 font-medium mb-3">
-                    {member.role}
-                  </p>
-                  <p className="text-sm text-slate-600 leading-relaxed mb-3">
-                    {member.description}
-                  </p>
-                  <ul className="space-y-1">
-                    {member.qualifications.map((q) => (
-                      <li
-                        key={q}
-                        className="flex items-center gap-2 text-xs text-slate-500"
-                      >
-                        <CheckCircle className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
-                        {q}
-                      </li>
-                    ))}
-                  </ul>
+          <div className="max-w-2xl mx-auto">
+            <div className="bg-white rounded-2xl overflow-hidden border border-slate-100">
+              {/* Avatar placeholder */}
+              <div className="aspect-[16/9] bg-gradient-to-br from-emerald-100 to-emerald-50 flex items-center justify-center">
+                <div className="w-28 h-28 bg-emerald-200 rounded-full flex items-center justify-center">
+                  <span className="text-4xl font-bold text-emerald-700">
+                    MG
+                  </span>
                 </div>
               </div>
-            ))}
+              <div className="p-8">
+                <h3 className="text-2xl font-bold text-slate-900">
+                  {OWNER.name}
+                </h3>
+                <p className="text-emerald-600 font-medium mb-4">
+                  {OWNER.role}
+                </p>
+                <p className="text-slate-600 leading-relaxed mb-6">
+                  {OWNER.description}
+                </p>
+                <h4 className="font-bold text-slate-900 mb-3">
+                  Qualifikationen
+                </h4>
+                <ul className="grid sm:grid-cols-2 gap-2">
+                  {OWNER.qualifications.map((q) => (
+                    <li
+                      key={q}
+                      className="flex items-center gap-2 text-sm text-slate-600"
+                    >
+                      <CheckCircle className="w-4 h-4 text-emerald-500 shrink-0" />
+                      {q}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
           </div>
         </Container>
       </section>

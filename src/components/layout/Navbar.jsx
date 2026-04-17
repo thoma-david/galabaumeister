@@ -3,6 +3,7 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 import { Menu, X, ChevronDown, Phone } from "lucide-react";
 import { NAV_LINKS } from "../../data/navigation";
 import { SITE } from "../../data/site";
+import { logoImg } from "../../data/images";
 import Container from "../ui/Container";
 
 export default function Navbar() {
@@ -51,29 +52,11 @@ export default function Navbar() {
         <nav className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 shrink-0">
-            <div className="w-10 h-10 bg-emerald-600 rounded-xl flex items-center justify-center">
-              <svg
-                viewBox="0 0 24 24"
-                className="w-6 h-6 text-white"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={2}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M12 22c4-4 8-7.5 8-12a8 8 0 1 0-16 0c0 4.5 4 8 8 12z" />
-                <path d="M12 10V6" />
-                <path d="M9 8h6" />
-              </svg>
-            </div>
-            <div className="leading-tight">
-              <span className="block text-lg font-extrabold text-slate-900 tracking-tight">
-                Galabau
-              </span>
-              <span className="block text-xs font-semibold text-emerald-600 -mt-0.5 tracking-wide">
-                MEISTER
-              </span>
-            </div>
+            <img
+              src={logoImg}
+              alt="Galabau Meister Logo"
+              className="h-12 md:h-14 w-auto"
+            />
           </Link>
 
           {/* Desktop nav */}
